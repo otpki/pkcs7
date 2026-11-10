@@ -92,19 +92,6 @@ which derives from [mozilla-services/pkcs7](https://github.com/mozilla-services/
 and [fullsailor/pkcs7](https://github.com/fullsailor/pkcs7).
 
 
-## Contributions and upstream synchronization
-
-General fixes and features should be submitted to
-[Smallstep PKCS7](https://github.com/smallstep/pkcs7), following upstream's
-contribution and licensing policies. This fork does not accept direct external
-contributions; OmniTrust maintains its downstream changes here and imports
-reviewed upstream updates. See [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Report vulnerabilities affecting upstream through
-[Smallstep's security policy](https://github.com/smallstep/pkcs7/security/policy).
-For vulnerabilities specific to this fork, use
-[private vulnerability reporting](https://github.com/otpki/pkcs7/security/advisories/new).
-
 ## License
 
 Original PKCS7 code remains licensed under the MIT terms in [LICENSE](LICENSE).
@@ -112,6 +99,5 @@ Original additions and modifications copyright (c) 2026 OmniTrust Security LLC
 are licensed under the [Apache License, Version 2.0](LICENSE-APACHE).
 
 Existing upstream and third-party attribution and terms remain applicable,
-including the Go BSD licenses in [internal/cryptobyte/LICENSE](internal/cryptobyte/LICENSE)
-and [internal/legacy/x509/LICENSE](internal/legacy/x509/LICENSE), and the
-[Go patent grant](internal/cryptobyte/PATENTS).
+including the Go BSD license in [internal/cryptobyte/LICENSE](internal/cryptobyte/LICENSE)
+and the [Go patent grant](internal/cryptobyte/PATENTS).
